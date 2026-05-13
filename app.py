@@ -21,7 +21,7 @@ from fixmyestate.policy import display_location, enum_value
 
 st.set_page_config(page_title="FixMyEstate SG", layout="wide")
 
-LOCATION_QUESTION = "Please describe the incident location in as much detail as possible."
+LOCATION_QUESTION = "Please describe the incident location in as much detail as possible. Example: e.g. Blk 73 Woodlands Street 689102 Lift Lobby A"
 LOCATION_PLACEHOLDER = "e.g. Blk 73 Woodlands Street 689102 Lift Lobby A"
 INJURY_QUESTION = "Is anyone injured or trapped?"
 ACCESS_QUESTION = "Is access affected for residents or vulnerable users?"
