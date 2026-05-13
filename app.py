@@ -298,7 +298,7 @@ def submit_tab() -> None:
     complaint = st.text_area(
         "Resident complaint",
         height=140,
-        placeholder="The lift at my block keeps breaking down and my mum in wheelchair cannot go down for appointment.",
+        placeholder="Example: The lift at my block keeps breaking down and my mum in wheelchair cannot go down for appointment.",
     )
 
     if st.button("Analyse Complaint", type="primary", disabled=not api_key_configured()):
